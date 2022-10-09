@@ -45,7 +45,7 @@
 					marker: {
 						size: 5,
 						opacity: 0.8,
-						color: 'rgb(153, 204, 255)'
+						color: 'rgb(238, 117, 47)'
 					},
 					type: 'scatter3d'
 
@@ -88,7 +88,7 @@
 					return rows.map(function(row){return row[key];});
 				}
 				sibTrace = {
-					name:'Small is Beautiful',
+					name:'Small Green Steps',
 					x:unpack(rows, 'Place (x)'),
 					y:unpack(rows, 'Knowledge (y)'),
 					z:unpack(rows, 'Action (z)'),
@@ -96,7 +96,7 @@
 					marker: {
 						size: 5,
 						opacity: 0.8,
-						color: 'rgb(255, 230, 153)'
+						color: 'rgb(88, 165, 92)'
 					},
 					type: 'scatter3d'
 				};
@@ -139,7 +139,7 @@
 					return rows.map(function(row){return row[key];});
 				}
 				scihumTrace = {
-					name: 'Science for Humanity',
+					name: 'Science Policy',
 					x:unpack(rows, 'Place (x)'),
 					y:unpack(rows, 'Knowledge (y)'),
 					z:unpack(rows, 'Action (z)'),
@@ -147,7 +147,7 @@
 					marker: {
 						size: 5,
 						opacity: 0.8,
-						color: 'rgb(153, 255, 153)'
+						color: 'rgb(242, 189, 66)'
 					},
 					type: 'scatter3d'
 				};
@@ -190,7 +190,7 @@
 					return rows.map(function(row){return row[key];});
 				}
 				ijTrace = {
-					name: 'Indigenous Justice',
+					name: 'Earth Justice',
 					x:unpack(rows, 'Place (x)'),
 					y:unpack(rows, 'Knowledge (y)'),
 					z:unpack(rows, 'Action (z)'),
@@ -248,7 +248,7 @@
 					marker: {
 						size: 5,
 						opacity: 0.8,
-						color: 'rgb(255, 153, 153)'
+						color: 'rgb(80, 134, 236)'
 					},
 					type: 'scatter3d'
 				};
@@ -304,46 +304,46 @@
 					marker: {
 						size: 5,
 						opacity: 0.8,
-					//	color: 'rgb(153, 204, 255)'
+					//	color: 'rgb(238, 117, 47)'
 					},
 					type: 'scatter3d'
 				};
 				sibTrace = {
-					name: 'Small is Beautiful',
-					x:unpack(rows, 'Place (x)', 'Small is Beautiful'),
-					y:unpack(rows, 'Knowledge (y)', 'Small is Beautiful'),
-					z:unpack(rows, 'Action (z)', 'Small is Beautiful'),
+					name: 'Small Green Steps',
+					x:unpack(rows, 'Place (x)', 'Small Green Steps'),
+					y:unpack(rows, 'Knowledge (y)', 'Small Green Steps'),
+					z:unpack(rows, 'Action (z)', 'Small Green Steps'),
 					mode: 'markers',
 					marker: {
 						size: 5,
 						opacity: 0.8,
-						//colorway: ['rgb(255, 230, 153)']
+						//colorway: ['rgb(88, 165, 92)']
 					},
 					type: 'scatter3d'
 				};
 				scihumTrace = {
-					name: 'Science for Humanity',
-					x:unpack(rows, 'Place (x)', 'Science for Humanity'),
-					y:unpack(rows, 'Knowledge (y)', 'Science for Humanity'),
-					z:unpack(rows, 'Action (z)', 'Science for Humanity'),
+					name: 'Science Policy',
+					x:unpack(rows, 'Place (x)', 'Science Policy'),
+					y:unpack(rows, 'Knowledge (y)', 'Science Policy'),
+					z:unpack(rows, 'Action (z)', 'Science Policy'),
 					mode: 'markers',
 					marker: {
 						size: 5,
 						opacity: 0.8,
-						//colorway: ['rgb(153, 204, 255)', 'rgb(255, 230, 153)','rgb(153, 255, 153)']
+						//colorway: ['rgb(238, 117, 47)', 'rgb(88, 165, 92)','rgb(242, 189, 66)']
 					},
 					type: 'scatter3d'
 				};
 				ijTrace = {
-					name: 'Indigenous Justice',
-					x:unpack(rows, 'Place (x)', 'Indigenous Justice'),
-					y:unpack(rows, 'Knowledge (y)', 'Indigenous Justice'),
-					z:unpack(rows, 'Action (z)', 'Indigenous Justice'),
+					name: 'Earth Justice',
+					x:unpack(rows, 'Place (x)', 'Earth Justice'),
+					y:unpack(rows, 'Knowledge (y)', 'Earth Justice'),
+					z:unpack(rows, 'Action (z)', 'Earth Justice'),
 					mode: 'markers',
 					marker: {
 						size: 5,
 						opacity: 0.8,
-					//	colorway: ['rgb(153, 204, 255)', 'rgb(255, 230, 153)','rgb(153, 255, 153)']
+					//	colorway: ['rgb(238, 117, 47)', 'rgb(88, 165, 92)','rgb(242, 189, 66)']
 					},
 					type: 'scatter3d'
 				};
@@ -356,7 +356,7 @@
 					marker: {
 						size: 5,
 						opacity: 0.8,
-						//colorway: ['rgb(153, 204, 255)', 'rgb(255, 230, 153)','rgb(153, 255, 153)']
+						//colorway: ['rgb(238, 117, 47)', 'rgb(88, 165, 92)','rgb(242, 189, 66)']
 					},
 					type: 'scatter3d'
 				};
@@ -370,7 +370,7 @@
 				    x: 1,
 				    y: 0.5
 				  },
-					colorway: ['rgb(255, 230, 153)','rgb(255, 153, 153)','rgb(153, 204, 255)','rgb(217, 80, 64)', 'rgb(153, 255, 153)'],
+					colorway: ['rgb(88, 165, 92)','rgb(80, 134, 236)','rgb(238, 117, 47)','rgb(217, 80, 64)', 'rgb(242, 189, 66)'],
 
 					scene: {
 						xaxis:{
@@ -408,11 +408,11 @@
 </head>
 <body>
 	<div class="buttons">
-		<button type="button" id="Small is Beautiful" onclick="sibPlot()">Small is Beautiful</button>
+		<button type="button" id="Small Green Steps" onclick="sibPlot()">Small Green Steps</button>
 		<button type="button" id="Ecoscience" onclick="ecosciPlot()">Ecoscience</button>
 		<button type="button" id="Ecospirituality" onclick="ecospirPlot()">Ecospirituality</button>
-		<button type="button" id="Indigenous Justice" onclick="ijPlot()">Indigenous Justice</button>
-		<button type="button" id="Science for Humanity" onclick="scihumPlot()">Science for Humanity</button>
+		<button type="button" id="Earth Justice" onclick="ijPlot()">Earth Justice</button>
+		<button type="button" id="Science Policy" onclick="scihumPlot()">Science Policy</button>
 		<button type="button" id="All EcoTypes" onclick="showPlotAll()">Show all</button>
 	</div>
 	<h3 id="title">All EcoTypes</h3>
