@@ -1,5 +1,5 @@
 # 3D-Graphing-With-Plotly
-python code to create a 3D, interactive scatterplot. This was created to show the data from a study by Professor Jim Proctor, but you can use it with any csv dataset.
+python code to create a 3D, interactive scatterplot. This was created in 2021 to show the data from a study by Professor Jim Proctor, but you can use it with any csv dataset. Prof. Proctor then edited code in 2022 with new data and multiple cluster scenarios based on this template.
 
 ## Setup
 make sure that you have the latest version of python3 installed and have downloaded all of the libraries shown below:
