@@ -29,7 +29,7 @@
 
 		function ecospirPlot(){
 			document.getElementById('plot').innerHTML = "";
-			d3.csv('https://raw.githubusercontent.com/watzek/3D-Graphing-With-Plotly/main/knum1.csv', function(err, rows){
+			d3.csv('knum1.csv', function(err, rows){
 				//t1=filterRows(rows, "Ecospirituality")
 				//console.log(r)
 				function unpack(rows, key, filter){
@@ -83,7 +83,7 @@
 		}
 		function sibPlot(){
 			document.getElementById('plot').innerHTML = "";
-			d3.csv('https://raw.githubusercontent.com/watzek/3D-Graphing-With-Plotly/main/knum2.csv', function(err, rows){
+			d3.csv('knum2.csv', function(err, rows){
 				function unpack(rows, key){
 					return rows.map(function(row){return row[key];});
 				}
@@ -134,7 +134,7 @@
 
 		function scihumPlot(){
 			document.getElementById('plot').innerHTML = "";
-			d3.csv('https://raw.githubusercontent.com/watzek/3D-Graphing-With-Plotly/main/knum3.csv', function(err, rows){
+			d3.csv('knum3.csv', function(err, rows){
 				function unpack(rows, key){
 					return rows.map(function(row){return row[key];});
 				}
@@ -185,7 +185,7 @@
 
 		function ijPlot(){
 			document.getElementById('plot').innerHTML = "";
-			d3.csv('https://raw.githubusercontent.com/watzek/3D-Graphing-With-Plotly/main/knum4.csv', function(err, rows){
+			d3.csv('knum4.csv', function(err, rows){
 				function unpack(rows, key){
 					return rows.map(function(row){return row[key];});
 				}
@@ -235,7 +235,7 @@
 		}
 		function ecosciPlot(){
 			document.getElementById('plot').innerHTML = "";
-			d3.csv('https://raw.githubusercontent.com/watzek/3D-Graphing-With-Plotly/main/knum5.csv', function(err, rows){
+			d3.csv('knum5.csv', function(err, rows){
 				function unpack(rows, key){
 					return rows.map(function(row){return row[key];});
 				}
@@ -288,7 +288,7 @@
 
 		function showPlotAll(){
 			document.getElementById('plot').innerHTML = "";
-			d3.csv('https://raw.githubusercontent.com/watzek/3D-Graphing-With-Plotly/main/knumAll.csv', function(err, rows){
+			d3.csv('knumAll.csv', function(err, rows){
 				//t1=filterRows(rows, "Ecospirituality")
 				//console.log(r)
 				function unpack(rows, key, filter){
